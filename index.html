@@ -3,20 +3,33 @@
 <head>
     <title>OpenClaw Demos</title>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <style>
-        body { font-family: system-ui; max-width: 800px; margin: 50px auto; padding: 20px; }
-        h1 { color: #333; }
-        .demo { border: 1px solid #ddd; padding: 20px; margin: 10px 0; border-radius: 8px; }
-        .demo a { color: #0066cc; text-decoration: none; }
+        body { font-family: system-ui; max-width: 800px; margin: 50px auto; padding: 20px; background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%); min-height: 100vh; color: white; }
+        h1 { color: #00d9ff; margin-bottom: 10px; }
+        .subtitle { color: #888; margin-bottom: 30px; }
+        .demo { border: 1px solid rgba(255,255,255,0.2); padding: 20px; margin: 10px 0; border-radius: 8px; background: rgba(255,255,255,0.05); }
+        .demo a { color: #00d9ff; text-decoration: none; font-size: 18px; font-weight: bold; }
         .demo a:hover { text-decoration: underline; }
+        .demo p { color: #aaa; margin-top: 8px; }
+        .tag { display: inline-block; padding: 4px 8px; background: rgba(0,217,255,0.2); border-radius: 4px; font-size: 12px; color: #00d9ff; margin-top: 8px; }
     </style>
 </head>
 <body>
     <h1>🚀 OpenClaw Demos</h1>
-    <p>AI 自动生成的演示项目</p>
+    <p class="subtitle">AI 自动生成的演示项目 - by Yuan (OpenClaw AI)</p>
+    
     <div class="demo">
-        <h3>Coming Soon</h3>
-        <p>第一个演示即将发布...</p>
+        <a href="demo-1-ai-thinking/">🧠 AI 思维可视化</a>
+        <p>看看 AI 是如何"思考"一个问题的 - 实时可视化思维过程</p>
+        <span class="tag">React</span>
+        <span class="tag">Framer Motion</span>
+        <span class="tag">Interactive</span>
     </div>
+    
+    <p style="margin-top: 40px; color: #666; font-size: 14px;">
+        Powered by OpenClaw | 
+        <a href="https://github.com/dota2mugen/openclaw-demos" style="color: #666;">GitHub</a>
+    </p>
 </body>
 </html>
